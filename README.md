@@ -29,7 +29,8 @@ Chapter folders land as the book is written. Follow the book for lab steps; run 
 | --- | --- |
 | `ch01-waves/` | Wavelength/dBm converters, relative-strength plot tool, sample CSV, BOM |
 | `ch02-safety/` | Field checklist + 5 V rail-verify validators, worksheets, BOM |
-| `ch03-law/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `ch03-law/` | Jurisdiction worksheet validator, official-URL worksheets, BOM |
+| `ch04-sdr-station/` ... `ch18-licence-qso/` | Later chapters (as written) |
 | `.github/workflows/` | CI smoke plus per-chapter test jobs |
 
 ### Chapter 1 tests
@@ -44,6 +45,13 @@ PYTHONPATH=. python -m unittest discover -s tests -v
 cd ch02-safety
 PYTHONPATH=. python -m unittest discover -s tests -v
 ```
+
+### Chapter 3 tests
+```bash
+cd ch03-law
+PYTHONPATH=. python -m unittest discover -s tests -v
+```
+
 
 ## Finding a chapter folder
 1. Open the chapter folder that matches the book companion path (for example `ch04-sdr-station`).

@@ -1,0 +1,15 @@
+{
+  "country_or_admin": "Italy",
+  "path_chosen": "italy_mimit",
+  "official_urls": [
+    "https://ispettorati.mise.gov.it/index.php/servizi/radioamatori/",
+    "https://ispcmi.mimit.gov.it/suite/sites/radioamatori",
+    "https://docdb.cept.org/download/4863"
+  ],
+  "receive_notes": "Sample only: reader replaces with notes from official pages for receive-only listening.",
+  "srd_or_unlicensed_notes": "Sample only: ERC/REC 70-03 Annex 1 g1 cited in book sources as 433.05-434.79 MHz, 10 mW e.r.p., duty cycle <= 10%; re-check current annex and national footnotes before any transmit.",
+  "amateur_licence_notes": "Sample only: follow current MIMIT radioamatori portal for exam and station authorization steps; this sample is not an application.",
+  "project_bucket_example": "RTL-SDR FM broadcast listening -- receive-only",
+  "not_legal_advice_ack": "I understand this worksheet is not legal advice",
+  "access_date": "2026-10-28"
+}
