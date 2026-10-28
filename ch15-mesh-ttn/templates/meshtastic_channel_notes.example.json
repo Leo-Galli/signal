@@ -1,0 +1,8 @@
+{
+  "board": "DOCUMENT_YOUR_SUPPORTED_BOARD",
+  "region": "EU868",
+  "channel_name": "teaching-lab",
+  "public_channel": false,
+  "firmware_source_url": "https://meshtastic.org/docs/",
+  "notes": "Fill locally. Do not store private channel keys in git."
+}

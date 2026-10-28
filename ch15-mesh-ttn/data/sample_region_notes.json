@@ -1,0 +1,9 @@
+{
+  "region": "EU868",
+  "country_or_area": "Italy",
+  "path": "ttn",
+  "official_url": "https://www.thethingsnetwork.org/docs/",
+  "checked_date": "2026-10-28",
+  "not_legal_advice": true,
+  "notes": "Teaching fixture only. Re-check live docs and national rules before field use."
+}

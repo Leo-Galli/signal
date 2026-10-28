@@ -1,0 +1,7 @@
+{
+  "secrets_storage": "Local untracked .env and TTN console only",
+  "retention": "Delete teaching keys after the lab week",
+  "redaction": "Blur AppKey in screenshots; no GPS tracks in git",
+  "not_committed": true,
+  "checked_date": "2026-10-28"
+}

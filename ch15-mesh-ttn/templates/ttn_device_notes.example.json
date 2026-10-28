@@ -1,0 +1,9 @@
+{
+  "application_id": "YOUR_APP_ID",
+  "device_id": "YOUR_DEVICE_ID",
+  "join_mode": "OTAA",
+  "region": "EU868",
+  "console_url": "https://www.thethingsnetwork.org/",
+  "keys_location": "untracked local file or password manager -- not this repo",
+  "notes": "One uplink lab only. Never paste AppKey here."
+}
