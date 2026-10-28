@@ -1,0 +1,13 @@
+{
+  "gnuradio_version": "3.10.x (replace with yours)",
+  "access_date": "2026-10-28",
+  "blocks": [
+    {"id": "rtlsdr_source", "label": "RTL-SDR Source (or Osmocom Source on some installs)"},
+    {"id": "low_pass_filter", "label": "Low Pass Filter"},
+    {"id": "analog_wfm_rcv", "label": "WBFM Receive"},
+    {"id": "audio_sink", "label": "Audio Sink"},
+    {"id": "blocks_file_source", "label": "File Source"},
+    {"id": "blocks_throttle", "label": "Throttle"},
+    {"id": "blocks_file_sink", "label": "File Sink"}
+  ]
+}

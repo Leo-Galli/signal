@@ -1,0 +1,197 @@
+options:
+  parameters:
+    author: Leonardo Galli / Signal companion
+    catch_exceptions: 'True'
+    category: '[GRC Hier Blocks]'
+    cmake_opt: ''
+    comment: 'File-source WBFM practice path for Chapter 9. No live dongle required. Point File Source at a complex float IQ clip (fc32) recorded at samp_rate. Throttle keeps playback near real time. Receive-only.'
+    copyright: ''
+    description: 'File Source -> Throttle -> LPF -> WBFM Receive -> Audio Sink (+ optional File Sink tap)'
+    gen_cmake: 'On'
+    gen_linking: dynamic
+    generate_options: qt_gui
+    hier_block_src_path: '.:'
+    id: wbfm_file_source
+    max_nouts: '0'
+    output_language: python
+    placement: (0,0)
+    qt_qss_theme: ''
+    realtime_scheduling: ''
+    run: 'True'
+    run_command: '{python} -u {filename}'
+    run_options: prompt
+    sizing_mode: fixed
+    thread_safe_setters: ''
+    title: WBFM File Source Practice
+    window_size: (1000,600)
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [8, 8]
+    rotation: 0
+    state: enabled
+
+blocks:
+- name: Options
+  id: options
+  parameters:
+    author: Leonardo Galli / Signal companion
+    catch_exceptions: 'True'
+    category: '[GRC Hier Blocks]'
+    comment: ''
+    description: 'File Source -> Throttle -> LPF -> WBFM Receive -> Audio Sink'
+    generate_options: qt_gui
+    id: wbfm_file_source
+    output_language: python
+    run: 'True'
+    title: WBFM File Source Practice
+    window_size: (1000,600)
+  states:
+    coordinate: [8, 8]
+    rotation: 0
+    state: enabled
+
+- name: samp_rate
+  id: variable
+  parameters:
+    comment: 'Must match the IQ file sample rate.'
+    value: '2.4e6'
+  states:
+    coordinate: [200, 12]
+    rotation: 0
+    state: enabled
+
+- name: channel_rate
+  id: variable
+  parameters:
+    comment: 'Quadrature rate into WBFM Receive. 2.4e6 / 10 = 240e3.'
+    value: '240e3'
+  states:
+    coordinate: [360, 12]
+    rotation: 0
+    state: enabled
+
+- name: audio_rate
+  id: variable
+  parameters:
+    comment: 'Audio rate (Hz).'
+    value: '48e3'
+  states:
+    coordinate: [520, 12]
+    rotation: 0
+    state: enabled
+
+- name: File Source
+  id: blocks_file_source
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: 'Complex float (fc32) IQ file. Replace path with your clip from Chapter 4 or a lab recording.'
+    file: /path/to/fm_practice.iq
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    repeat: 'True'
+    type: complex
+    vlen: '1'
+  states:
+    coordinate: [40, 160]
+    rotation: 0
+    state: enabled
+
+- name: Throttle
+  id: blocks_throttle
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: 'Required with File Source so the graph does not consume the file at CPU speed.'
+    ignoretag: 'True'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samples_per_second: samp_rate
+    type: complex
+    vlen: '1'
+  states:
+    coordinate: [280, 180]
+    rotation: 0
+    state: enabled
+
+- name: Low Pass Filter
+  id: low_pass_filter
+  parameters:
+    affinity: ''
+    alias: ''
+    beta: '6.76'
+    comment: 'Same channel-filter role as the live graph.'
+    cutoff: '100e3'
+    decim: 'int(samp_rate/channel_rate)'
+    gain: '1'
+    interp: '1'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    samp_rate: samp_rate
+    type: fir_filter_ccf
+    width: '50e3'
+    win: window.WIN_HAMMING
+  states:
+    coordinate: [480, 160]
+    rotation: 0
+    state: enabled
+
+- name: WBFM Receive
+  id: analog_wfm_rcv
+  parameters:
+    affinity: ''
+    alias: ''
+    audio_decimation: 'int(channel_rate/audio_rate)'
+    comment: 'Wideband FM demodulator.'
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    quad_rate: channel_rate
+  states:
+    coordinate: [700, 180]
+    rotation: 0
+    state: enabled
+
+- name: Audio Sink
+  id: audio_sink
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: 'Host sound device.'
+    device_name: ''
+    num_inputs: '1'
+    ok_to_block: 'True'
+    samp_rate: audio_rate
+  states:
+    coordinate: [920, 200]
+    rotation: 0
+    state: enabled
+
+- name: File Sink
+  id: blocks_file_sink
+  parameters:
+    affinity: ''
+    alias: ''
+    append: 'False'
+    comment: 'Exercise 2: wire analog_wfm_rcv audio (or a second tap) into this sink to save a WAV/float audio file. Disabled by default so a missing path does not break first Run.'
+    file: /path/to/demod_audio.f32
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    type: float
+    unbuffered: 'False'
+    vlen: '1'
+  states:
+    coordinate: [920, 320]
+    rotation: 0
+    state: disabled
+
+connections:
+- [blocks_file_source, '0', blocks_throttle, '0']
+- [blocks_throttle, '0', low_pass_filter, '0']
+- [low_pass_filter, '0', analog_wfm_rcv, '0']
+- [analog_wfm_rcv, '0', audio_sink, '0']
+
+metadata:
+  file_format: 1
+  grc_version: 3.10.0

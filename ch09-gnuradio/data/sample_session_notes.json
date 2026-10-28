@@ -1,0 +1,17 @@
+{
+  "access_date": "2026-10-28",
+  "gnuradio_version": "3.10.x (replace with yours)",
+  "grc_version_or_build": "GNU Radio Companion matching host install",
+  "flowgraph_path": "flowgraphs/wbfm_rtl_receive.grc",
+  "sample_rate_hz": 2400000,
+  "center_freq_hz": 100100000,
+  "filter_cutoff_hz": 100000,
+  "audio_rate_hz": 48000,
+  "jurisdiction_note": "Receive-only FM broadcast practice; not legal advice; confirm local rules before recording or sharing.",
+  "block_versions_note": "See data/sample_block_versions.json; replace labels after Help About / block properties on your install.",
+  "exercises": {
+    "filter_bandwidth": "Compared 100 kHz vs 50 kHz cutoff; narrower sounded thinner on a strong local station (replace with your note).",
+    "file_sink": "Enabled File Sink on wbfm_file_source.grc and wrote demod_audio.f32 locally (not committed).",
+    "block_versions": "Documented GNU Radio version and key block ids in sample_block_versions.json."
+  }
+}
