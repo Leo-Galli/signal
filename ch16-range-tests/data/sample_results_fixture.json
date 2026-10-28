@@ -1,0 +1,75 @@
+{
+  "session_id": "ci-synthetic-fixture",
+  "date": "2026-10-28",
+  "region": "EU868",
+  "sf": 7,
+  "bw_khz": 125,
+  "cr": 1,
+  "tx_dbm": 2,
+  "payload_bytes": 16,
+  "antenna_fixed": "synthetic-whip",
+  "antenna_walking": "synthetic-whip",
+  "height_fixed_m": 1.5,
+  "height_walking_m": 1.2,
+  "distance_method": "paced",
+  "invented_ranges": false,
+  "fixture_note": "SYNTHETIC numbers for unit tests and plotter CI only. Not a field claim. Do not copy into the book as results.",
+  "limitation_note": "Synthetic CI fixture only: numbers exist so the plotter and validator have a shape to test. Not a measured outdoor range.",
+  "points": [
+    {
+      "index": 1,
+      "time": "10:00",
+      "distance_m": 10,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": -70,
+      "snr_db": 8,
+      "decode_ok": true,
+      "notes": "synthetic"
+    },
+    {
+      "index": 2,
+      "time": "10:05",
+      "distance_m": 25,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": -85,
+      "snr_db": 4,
+      "decode_ok": true,
+      "notes": "synthetic"
+    },
+    {
+      "index": 3,
+      "time": "10:10",
+      "distance_m": 40,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": -95,
+      "snr_db": 1,
+      "decode_ok": true,
+      "notes": "synthetic"
+    },
+    {
+      "index": 4,
+      "time": "10:15",
+      "distance_m": 55,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": null,
+      "snr_db": null,
+      "decode_ok": false,
+      "notes": "synthetic blank rssi"
+    },
+    {
+      "index": 5,
+      "time": "10:20",
+      "distance_m": 70,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": -110,
+      "snr_db": -5,
+      "decode_ok": false,
+      "notes": "synthetic"
+    }
+  ]
+}

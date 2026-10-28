@@ -1,0 +1,15 @@
+{
+  "session_id": "walk-demo-controls",
+  "date": "2026-10-28",
+  "region": "EU868",
+  "sf": 7,
+  "bw_khz": 125,
+  "cr": 1,
+  "tx_dbm": 2,
+  "payload_bytes": 16,
+  "antenna_fixed": "quarter-wave whip",
+  "antenna_walking": "quarter-wave whip",
+  "height_fixed_m": 1.5,
+  "height_walking_m": 1.2,
+  "distance_method": "paced"
+}

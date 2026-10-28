@@ -1,0 +1,74 @@
+{
+  "session_id": "REPLACE_ME",
+  "date": "YYYY-MM-DD",
+  "region": "",
+  "sf": 7,
+  "bw_khz": 125,
+  "cr": 1,
+  "tx_dbm": 2,
+  "payload_bytes": 16,
+  "antenna_fixed": "",
+  "antenna_walking": "",
+  "height_fixed_m": 0,
+  "height_walking_m": 0,
+  "distance_method": "paced",
+  "invented_ranges": false,
+  "limitation_note": "Replace this with your own limitation paragraph after the walk.",
+  "points": [
+    {
+      "index": 1,
+      "time": null,
+      "distance_m": null,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": null,
+      "snr_db": null,
+      "decode_ok": null,
+      "notes": null
+    },
+    {
+      "index": 2,
+      "time": null,
+      "distance_m": null,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": null,
+      "snr_db": null,
+      "decode_ok": null,
+      "notes": null
+    },
+    {
+      "index": 3,
+      "time": null,
+      "distance_m": null,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": null,
+      "snr_db": null,
+      "decode_ok": null,
+      "notes": null
+    },
+    {
+      "index": 4,
+      "time": null,
+      "distance_m": null,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": null,
+      "snr_db": null,
+      "decode_ok": null,
+      "notes": null
+    },
+    {
+      "index": 5,
+      "time": null,
+      "distance_m": null,
+      "lat": null,
+      "lon": null,
+      "rssi_dbm": null,
+      "snr_db": null,
+      "decode_ok": null,
+      "notes": null
+    }
+  ]
+}
