@@ -1,0 +1,28 @@
+{
+  "access_date": "2026-10-28",
+  "jurisdiction_note": "Sample only -- replace with your Chapter 3 worksheet path and local receive framing. Not legal advice.",
+  "decoder_name": "dump1090-or-readsb-style (sample label -- replace with your build)",
+  "map_ui": "localhost map UI (sample -- replace with your URL or client name)",
+  "sessions": [
+    {
+      "label": "primary-indoor",
+      "antenna_position": "indoor-desk",
+      "duration_minutes": 10,
+      "unique_aircraft": 3,
+      "message_count": 420,
+      "start_time": "14:00",
+      "end_time": "14:10",
+      "sky_note": "sample indoor window view"
+    },
+    {
+      "label": "compare-outdoor",
+      "antenna_position": "balcony",
+      "duration_minutes": 10,
+      "unique_aircraft": 12,
+      "message_count": 2400,
+      "start_time": "14:20",
+      "end_time": "14:30",
+      "sky_note": "sample outdoor sky view"
+    }
+  ]
+}
