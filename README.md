@@ -36,7 +36,8 @@ Chapter folders land as the book is written. Follow the book for lab steps; run 
 | `ch07-wxsat/` | WX sat Doppler + pass-log + practice APT WAV/PNG, worksheets, BOM |
 | `ch08-rtl433/` | rtl_433 sensor-log + device filter + temperature plot, worksheets, BOM |
 | `ch09-gnuradio/` | GNU Radio WBFM `.grc` flowgraphs + sample-rate / session-note tools, worksheets, BOM |
-| `ch10-morse-learn/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `ch10-morse-learn/` | Morse ear-training practice log + Farnsworth timing + Koch order, worksheets, BOM |
+| `ch11-morse-software/` ... `ch18-licence-qso/` | Later chapters (as written) |
 | `.github/workflows/` | CI smoke plus per-chapter test jobs |
 
 ### Chapter 1 tests
@@ -95,9 +96,15 @@ cd ch09-gnuradio
 PYTHONPATH=. python -m unittest discover -s tests -v
 ```
 
+### Chapter 10 tests
+```bash
+cd ch10-morse-learn
+PYTHONPATH=. python -m unittest discover -s tests -v
+```
+
 
 ## Finding a chapter folder
-1. Open the chapter folder that matches the book companion path (for example `ch09-gnuradio`).
+1. Open the chapter folder that matches the book companion path (for example `ch10-morse-learn`).
 2. Open that folder's `README.md` for the title and book location only.
 3. Follow the book for steps; run any listed tests from that folder.
 

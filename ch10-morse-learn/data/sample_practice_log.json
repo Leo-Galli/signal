@@ -1,0 +1,74 @@
+{
+  "trainer_name": "LCWO (sample label -- replace with the trainer you used)",
+  "trainer_url_or_path": "https://lcwo.net/",
+  "start_date": "2026-10-28",
+  "character_wpm_target": 20,
+  "effective_wpm_start": 10,
+  "practice_mode": "Koch + Farnsworth copy",
+  "receive_only_ack": "acknowledged",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-28",
+      "minutes": 20,
+      "character_wpm": 20,
+      "effective_wpm": 10,
+      "accuracy_percent": 72,
+      "notes": "Sample day 1 -- replace with your real copy results."
+    },
+    {
+      "day": 2,
+      "date": "2026-10-29",
+      "minutes": 20,
+      "character_wpm": 20,
+      "effective_wpm": 10,
+      "accuracy_percent": 78,
+      "notes": "Sample day 2 -- replace with your real copy results."
+    },
+    {
+      "day": 3,
+      "date": "2026-10-30",
+      "minutes": 25,
+      "character_wpm": 20,
+      "effective_wpm": 12,
+      "accuracy_percent": 75,
+      "notes": "Sample day 3 -- slight effective-speed bump."
+    },
+    {
+      "day": 4,
+      "date": "2026-10-31",
+      "minutes": 20,
+      "character_wpm": 20,
+      "effective_wpm": 12,
+      "accuracy_percent": 80,
+      "notes": "Sample day 4 -- replace with your real copy results."
+    },
+    {
+      "day": 5,
+      "date": "2026-11-01",
+      "minutes": 20,
+      "character_wpm": 20,
+      "effective_wpm": 12,
+      "accuracy_percent": 82,
+      "notes": "Sample day 5 -- replace with your real copy results."
+    },
+    {
+      "day": 6,
+      "date": "2026-11-02",
+      "minutes": 15,
+      "character_wpm": 20,
+      "effective_wpm": 12,
+      "accuracy_percent": 70,
+      "notes": "Sample day 6 -- shorter session, accuracy dipped."
+    },
+    {
+      "day": 7,
+      "date": "2026-11-03",
+      "minutes": 25,
+      "character_wpm": 20,
+      "effective_wpm": 12,
+      "accuracy_percent": 85,
+      "notes": "Sample day 7 -- replace with your real copy results."
+    }
+  ]
+}
