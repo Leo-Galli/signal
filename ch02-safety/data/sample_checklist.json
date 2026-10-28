@@ -1,0 +1,7 @@
+{
+  "power_source": "lab PSU set to 5.00 V, metered before connect",
+  "polarity_marked": "red = +, black = GND on breadboard rails",
+  "fuse_value": "as printed on installed fuse (replace with your rating)",
+  "antenna_inspected": "N/A for rail-only verify; whip stowed disconnected",
+  "stop_condition": "no RF and no radio load until reverse_hold_pass is true"
+}

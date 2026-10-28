@@ -1,0 +1,7 @@
+{
+  "fuse_continuity": "pass -- near-zero ohms with power off",
+  "diode_orientation": "stripe toward load for series protection as wired",
+  "measured_rail_volts": "replace with your meter reading after diode drop",
+  "reverse_hold_pass": "pass -- load rail near 0 V with supply reversed on current-limited PSU",
+  "notes": "sample log for CI; replace fields with your bench results"
+}

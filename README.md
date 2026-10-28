@@ -28,13 +28,20 @@ Chapter folders land as the book is written. Follow the book for lab steps; run 
 | Path | Purpose |
 | --- | --- |
 | `ch01-waves/` | Wavelength/dBm converters, relative-strength plot tool, sample CSV, BOM |
-| `ch02-safety/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `ch02-safety/` | Field checklist + 5 V rail-verify validators, worksheets, BOM |
+| `ch03-law/` ... `ch18-licence-qso/` | Later chapters (as written) |
 | `.github/workflows/` | CI smoke plus per-chapter test jobs |
 
 ### Chapter 1 tests
 ```bash
 cd ch01-waves
 pip install matplotlib   # optional locally; required for PNG output
+PYTHONPATH=. python -m unittest discover -s tests -v
+```
+
+### Chapter 2 tests
+```bash
+cd ch02-safety
 PYTHONPATH=. python -m unittest discover -s tests -v
 ```
 
