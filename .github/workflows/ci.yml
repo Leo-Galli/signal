@@ -20,3 +20,26 @@ jobs:
           test -f README.md
           test -f CONTRIBUTING.md
           python -c "print('smoke ok')"
+
+  ch01-waves:
+    name: ch01-waves
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ch01-waves
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install plot dependency
+        run: pip install matplotlib
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: .

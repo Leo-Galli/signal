@@ -22,13 +22,21 @@ cd signal
 python -c "print('smoke ok')"
 ```
 
-Chapter folders and tests land here as the book is written. Starters are expected to fail until you complete the exercise using the book.
+Chapter folders land as the book is written. Follow the book for lab steps; run that chapter's tests from its folder.
 
 ## Folder map
 | Path | Purpose |
 | --- | --- |
-| `ch01-waves/` ... `ch18-licence-qso/` | Per-chapter firmware, Python tools, worksheets, BOM, tests |
-| `.github/workflows/` | CI (smoke now; firmware and unit tests as chapters land) |
+| `ch01-waves/` | Wavelength/dBm converters, relative-strength plot tool, sample CSV, BOM |
+| `ch02-safety/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `.github/workflows/` | CI smoke plus per-chapter test jobs |
+
+### Chapter 1 tests
+```bash
+cd ch01-waves
+pip install matplotlib   # optional locally; required for PNG output
+PYTHONPATH=. python -m unittest discover -s tests -v
+```
 
 ## Finding a chapter folder
 1. Open the chapter folder that matches the book companion path (for example `ch04-sdr-station`).
