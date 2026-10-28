@@ -1,0 +1,9 @@
+{
+  "access_date": "2026-10-28",
+  "image_source": "companion-practice-wav",
+  "sync_quality": "clean",
+  "noise_level": "low",
+  "slant_or_skew": "none",
+  "overall_usable": "yes",
+  "notes": "Sample rating of the practice PNG only -- replace after you inspect your own output. Not a live NOAA APT image."
+}

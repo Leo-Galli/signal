@@ -1,0 +1,28 @@
+{
+  "access_date": "2026-10-28",
+  "jurisdiction_note": "Sample only -- replace with your Chapter 3 worksheet path and local receive framing. Not legal advice.",
+  "tle_source_url": "https://example.invalid/replace-with-public-tle-source",
+  "decoder_or_tool": "companion apt_practice_roundtrip (sample) or your live decoder name",
+  "passes": [
+    {
+      "label": "predict-primary",
+      "satellite_name": "METEOR-M2 3 (sample label -- replace from your TLE)",
+      "predicted_aos_utc": "2026-10-28T10:00:00Z",
+      "predicted_los_utc": "2026-10-28T10:12:00Z",
+      "max_elevation_deg": 45,
+      "antenna_position": "balcony-vdipole",
+      "outcome": "predicted-only",
+      "notes": "sample prediction row -- replace with your public-TLE result"
+    },
+    {
+      "label": "practice-decode",
+      "satellite_name": "practice-pattern (not a flight vehicle)",
+      "predicted_aos_utc": "n/a",
+      "predicted_los_utc": "n/a",
+      "max_elevation_deg": 0,
+      "antenna_position": "n/a-offline",
+      "outcome": "practice-wav-decoded",
+      "notes": "sample offline roundtrip -- replace notes after you run the tool"
+    }
+  ]
+}
