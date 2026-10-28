@@ -1,0 +1,15 @@
+{
+  "session_id": "fixture-indoor-001",
+  "module": "SX1276",
+  "sf": 7,
+  "bw_khz": 125,
+  "tx_dbm": 2,
+  "duty_cycle_percent": 10,
+  "invented_ranges": false,
+  "note": "CI fixture only -- replace with your indoor measurements. Not a field claim.",
+  "points": [
+    {"distance_m": 1, "rssi_dbm": -40.0, "snr_db": 10.0, "seq": 1},
+    {"distance_m": 5, "rssi_dbm": -55.0, "snr_db": 8.0, "seq": 2},
+    {"distance_m": 10, "rssi_dbm": -68.0, "snr_db": 5.0, "seq": 3}
+  ]
+}
