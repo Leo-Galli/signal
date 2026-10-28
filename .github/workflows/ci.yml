@@ -226,3 +226,23 @@ jobs:
         run: python -m unittest discover -s tests -v
         env:
           PYTHONPATH: .
+
+  ch11-morse-software:
+    name: ch11-morse-software
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ch11-morse-software
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: .

@@ -1,0 +1,9 @@
+{
+  "phrases": [
+    {"id": "cq", "text": "CQ CQ CQ"},
+    {"id": "paris", "text": "PARIS PARIS"},
+    {"id": "hello", "text": "HELLO WORLD"},
+    {"id": "digits", "text": "DE 1A2B3C"},
+    {"id": "test", "text": "TEST 123"}
+  ]
+}
