@@ -1,0 +1,5 @@
+{"time":"2026-10-28 14:00:00","model":"SampleThermo-V1","id":1001,"channel":"A","temperature_C":21.5,"humidity":48}
+{"time":"2026-10-28 14:05:00","model":"SampleThermo-V1","id":1001,"channel":"A","temperature_C":21.7,"humidity":47}
+{"time":"2026-10-28 14:10:00","model":"SampleThermo-V1","id":1001,"channel":"A","temperature_C":21.9,"humidity":47}
+{"time":"2026-10-28 14:12:00","model":"OtherSensor-V1","id":2002,"channel":"B","temperature_C":18.2,"humidity":55}
+{"time":"2026-10-28 14:15:00","model":"SampleThermo-V1","id":1001,"channel":"A","temperature_C":22.0,"humidity":46}

@@ -1,0 +1,121 @@
+{
+  "access_date": "2026-10-28",
+  "jurisdiction_note": "Sample only -- replace with your Chapter 3 worksheet path and local receive framing. Not legal advice.",
+  "rtl433_version_or_build": "rtl_433 (sample label -- replace with your version string)",
+  "band_note": "433 MHz EU ISM receive path (sample -- replace with your antenna and region note)",
+  "privacy_ack": "acknowledged",
+  "records": [
+    {
+      "time": "2026-10-28 14:00:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.5,
+      "humidity": 48
+    },
+    {
+      "time": "2026-10-28 14:05:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.7,
+      "humidity": 47
+    },
+    {
+      "time": "2026-10-28 14:10:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.9,
+      "humidity": 47
+    },
+    {
+      "time": "2026-10-28 14:12:00",
+      "model": "OtherSensor-V1",
+      "id": 2002,
+      "channel": "B",
+      "temperature_C": 18.2,
+      "humidity": 55
+    },
+    {
+      "time": "2026-10-28 14:15:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 22.0,
+      "humidity": 46
+    },
+    {
+      "time": "2026-10-28 14:20:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 22.1,
+      "humidity": 46
+    },
+    {
+      "time": "2026-10-28 14:25:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 22.0,
+      "humidity": 45
+    },
+    {
+      "time": "2026-10-28 14:30:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.8,
+      "humidity": 45
+    },
+    {
+      "time": "2026-10-28 14:35:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.6,
+      "humidity": 46
+    },
+    {
+      "time": "2026-10-28 14:40:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.4,
+      "humidity": 47
+    },
+    {
+      "time": "2026-10-28 14:45:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.3,
+      "humidity": 48
+    },
+    {
+      "time": "2026-10-28 14:50:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.2,
+      "humidity": 49
+    },
+    {
+      "time": "2026-10-28 14:55:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.1,
+      "humidity": 49
+    },
+    {
+      "time": "2026-10-28 15:00:00",
+      "model": "SampleThermo-V1",
+      "id": 1001,
+      "channel": "A",
+      "temperature_C": 21.0,
+      "humidity": 50
+    }
+  ]
+}

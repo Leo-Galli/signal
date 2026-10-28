@@ -34,7 +34,8 @@ Chapter folders land as the book is written. Follow the book for lab steps; run 
 | `ch05-fm-airband/` | Listening-log validator, relative SNR compare, worksheets, BOM |
 | `ch06-adsb/` | ADS-B session-log validator, decode-rate + antenna compare, worksheets, BOM |
 | `ch07-wxsat/` | WX sat Doppler + pass-log + practice APT WAV/PNG, worksheets, BOM |
-| `ch08-rtl433/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `ch08-rtl433/` | rtl_433 sensor-log + device filter + temperature plot, worksheets, BOM |
+| `ch09-gnuradio/` ... `ch18-licence-qso/` | Later chapters (as written) |
 | `.github/workflows/` | CI smoke plus per-chapter test jobs |
 
 ### Chapter 1 tests
@@ -80,9 +81,16 @@ cd ch07-wxsat
 PYTHONPATH=. python -m unittest discover -s tests -v
 ```
 
+### Chapter 8 tests
+```bash
+cd ch08-rtl433
+pip install matplotlib   # optional locally; required for PNG output
+PYTHONPATH=. python -m unittest discover -s tests -v
+```
+
 
 ## Finding a chapter folder
-1. Open the chapter folder that matches the book companion path (for example `ch07-wxsat`).
+1. Open the chapter folder that matches the book companion path (for example `ch08-rtl433`).
 2. Open that folder's `README.md` for the title and book location only.
 3. Follow the book for steps; run any listed tests from that folder.
 

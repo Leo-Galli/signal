@@ -1,0 +1,7 @@
+{
+  "access_date": "2026-10-28",
+  "retention_plan": "Keep practice JSON locally for one week, then delete or anonymize device ids.",
+  "neighbor_note": "Neighbor thermometers may appear; do not map them to addresses or publish raw logs.",
+  "no_publish_ack": "acknowledged",
+  "purpose": "Learn rtl_433 decode and JSON logging for the Signal chapter exercises only."
+}
