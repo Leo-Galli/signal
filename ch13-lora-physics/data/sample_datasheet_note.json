@@ -1,0 +1,11 @@
+{
+  "module_family": "SX127x-class (CI fixture)",
+  "datasheet_title": "CI FIXTURE ONLY -- replace with your Semtech SX127x/SX126x or E22 datasheet",
+  "datasheet_revision_or_date": "fixture-not-a-real-revision",
+  "table_or_page": "fixture table -- paste real table/page after you open the PDF",
+  "sf": 12,
+  "bw_hz": 125000,
+  "sensitivity_dbm": -120.0,
+  "access_note": "This number is a unit-test fixture, not a datasheet claim. Copy your real sensitivity from the row matching SF/BW/CR.",
+  "fixture_only": true
+}

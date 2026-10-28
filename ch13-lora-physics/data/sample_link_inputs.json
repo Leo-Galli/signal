@@ -1,0 +1,11 @@
+{
+  "tx_mw": 10.0,
+  "tx_antenna_gain_dbi": 0.0,
+  "rx_antenna_gain_dbi": 0.0,
+  "distance_m": 1000.0,
+  "freq_mhz": 433.0,
+  "other_losses_db": 1.0,
+  "sensitivity_dbm": -120.0,
+  "sensitivity_source": "CI FIXTURE ONLY -- replace with datasheet citation",
+  "note": "Example planning inputs for tools/tests. Not a measured range."
+}
