@@ -1,0 +1,15 @@
+{
+  "software_name": "SDR++",
+  "software_version": "1.2.0",
+  "device_name": "RTL-SDR Blog V4",
+  "sample_rate_hz": 2400000,
+  "ppm_correction": -50,
+  "default_gain": "28.0 dB manual",
+  "antenna_notes": "Telescopic fully extended, vertical, indoor near window",
+  "last_expected_mhz": 100.0,
+  "last_measured_mhz": 100.005,
+  "iq_recording_path": "recordings/fm_practice_10s.iq",
+  "iq_duration_s": 10,
+  "access_date": "2026-10-28",
+  "notes": "Sample file for CI and template. Replace with your own values."
+}

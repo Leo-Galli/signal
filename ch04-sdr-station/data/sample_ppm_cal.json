@@ -1,0 +1,7 @@
+{
+  "expected_mhz": 100.0,
+  "measured_mhz": 100.005,
+  "frequency_error_ppm": 50.0,
+  "suggested_correction_ppm": -50.0,
+  "notes": "Example numbers only. Replace with your published station and display peak."
+}

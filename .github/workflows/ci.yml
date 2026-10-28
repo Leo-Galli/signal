@@ -83,3 +83,23 @@ jobs:
         run: python -m unittest discover -s tests -v
         env:
           PYTHONPATH: .
+
+  ch04-sdr-station:
+    name: ch04-sdr-station
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ch04-sdr-station
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: .

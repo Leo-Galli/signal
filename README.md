@@ -30,7 +30,8 @@ Chapter folders land as the book is written. Follow the book for lab steps; run 
 | `ch01-waves/` | Wavelength/dBm converters, relative-strength plot tool, sample CSV, BOM |
 | `ch02-safety/` | Field checklist + 5 V rail-verify validators, worksheets, BOM |
 | `ch03-law/` | Jurisdiction worksheet validator, official-URL worksheets, BOM |
-| `ch04-sdr-station/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `ch04-sdr-station/` | PPM calibration, station-notes validator, worksheets, BOM |
+| `ch05-fm-airband/` ... `ch18-licence-qso/` | Later chapters (as written) |
 | `.github/workflows/` | CI smoke plus per-chapter test jobs |
 
 ### Chapter 1 tests
@@ -49,6 +50,12 @@ PYTHONPATH=. python -m unittest discover -s tests -v
 ### Chapter 3 tests
 ```bash
 cd ch03-law
+PYTHONPATH=. python -m unittest discover -s tests -v
+```
+
+### Chapter 4 tests
+```bash
+cd ch04-sdr-station
 PYTHONPATH=. python -m unittest discover -s tests -v
 ```
 
