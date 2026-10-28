@@ -1,0 +1,12 @@
+{
+  "wpm_hint": 20,
+  "notes": "Synthetic marks for the letter K (-.-) at 20 WPM unit=60 ms.",
+  "events": [
+    {"kind": "mark", "duration_ms": 180},
+    {"kind": "space", "duration_ms": 60},
+    {"kind": "mark", "duration_ms": 60},
+    {"kind": "space", "duration_ms": 60},
+    {"kind": "mark", "duration_ms": 180},
+    {"kind": "space", "duration_ms": 180}
+  ]
+}

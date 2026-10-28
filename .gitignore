@@ -22,3 +22,11 @@ htmlcov/
 *.map
 sdkconfig.old
 managed_components/
+.pio/
+.vscode/.browse.c_cpp.db*
+.clang_complete
+.gcc-flags.json
+.pio/
+.vscode/.browse.c_cpp.db*
+.clang_complete
+.gcc-flags.json

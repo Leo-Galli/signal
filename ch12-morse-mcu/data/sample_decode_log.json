@@ -1,0 +1,8 @@
+{
+  "session_id": "bench-2026-10-28-a",
+  "board": "esp32dev",
+  "wpm": 20,
+  "decoded_text": "PARIS",
+  "practice_only": true,
+  "notes": "Straight key into KEY_PIN; sidetone on TONE_PIN; no RF."
+}

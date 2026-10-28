@@ -1,0 +1,5 @@
+{
+  "adc_raw": 2048,
+  "adc_max": 4095,
+  "notes": "Mid-travel pot on ESP32 ADC1 channel (example)."
+}

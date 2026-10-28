@@ -38,7 +38,8 @@ Chapter folders land as the book is written. Follow the book for lab steps; run 
 | `ch09-gnuradio/` | GNU Radio WBFM `.grc` flowgraphs + sample-rate / session-note tools, worksheets, BOM |
 | `ch10-morse-learn/` | Morse ear-training practice log + Farnsworth timing + Koch order, worksheets, BOM |
 | `ch11-morse-software/` | Morse encode/decode WAV tools + corpus accuracy + timing fuzz, worksheets, BOM |
-| `ch12-morse-mcu/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `ch12-morse-mcu/` | ESP32/Arduino Morse keyer+decoder firmware + WPM/decode-log tools, worksheets, BOM |
+| `ch13-lora-physics/` ... `ch18-licence-qso/` | Later chapters (as written) |
 | `.github/workflows/` | CI smoke plus per-chapter test jobs |
 
 ### Chapter 1 tests
@@ -109,9 +110,15 @@ cd ch11-morse-software
 PYTHONPATH=. python -m unittest discover -s tests -v
 ```
 
+### Chapter 12 tests and firmware build
+```bash
+cd ch12-morse-mcu
+PYTHONPATH=. python -m unittest discover -s tests -v
+pio run -e esp32dev   # requires PlatformIO; CI runs this job
+```
 
 ## Finding a chapter folder
-1. Open the chapter folder that matches the book companion path (for example `ch11-morse-software`).
+1. Open the chapter folder that matches the book companion path (for example `ch12-morse-mcu`).
 2. Open that folder's `README.md` for the title and book location only.
 3. Follow the book for steps; run any listed tests from that folder.
 
