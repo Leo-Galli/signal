@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "operator_name_field": "MAKER",
+  "jurisdiction_worksheet_done": true,
+  "antenna_attached": true,
+  "dry_run_verified": true,
+  "power_setting_dBm": 2,
+  "duty_cycle_percent": 10,
+  "battery_checked": true,
+  "false_distress_acknowledged": true,
+  "signed": true,
+  "invented_gps_track": false
+}

@@ -364,3 +364,29 @@ jobs:
         run: python -m unittest discover -s tests -v
         env:
           PYTHONPATH: .
+
+  ch17-field-beacon:
+    name: ch17-field-beacon
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ch17-field-beacon
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: .
+
+      - name: Install PlatformIO
+        run: pip install platformio
+
+      - name: Build beacon firmware (dry-run)
+        run: pio run -e esp32-beacon-dry
