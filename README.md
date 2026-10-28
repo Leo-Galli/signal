@@ -31,7 +31,8 @@ Chapter folders land as the book is written. Follow the book for lab steps; run 
 | `ch02-safety/` | Field checklist + 5 V rail-verify validators, worksheets, BOM |
 | `ch03-law/` | Jurisdiction worksheet validator, official-URL worksheets, BOM |
 | `ch04-sdr-station/` | PPM calibration, station-notes validator, worksheets, BOM |
-| `ch05-fm-airband/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `ch05-fm-airband/` | Listening-log validator, relative SNR compare, worksheets, BOM |
+| `ch06-adsb/` ... `ch18-licence-qso/` | Later chapters (as written) |
 | `.github/workflows/` | CI smoke plus per-chapter test jobs |
 
 ### Chapter 1 tests
@@ -59,9 +60,15 @@ cd ch04-sdr-station
 PYTHONPATH=. python -m unittest discover -s tests -v
 ```
 
+### Chapter 5 tests
+```bash
+cd ch05-fm-airband
+PYTHONPATH=. python -m unittest discover -s tests -v
+```
+
 
 ## Finding a chapter folder
-1. Open the chapter folder that matches the book companion path (for example `ch04-sdr-station`).
+1. Open the chapter folder that matches the book companion path (for example `ch05-fm-airband`).
 2. Open that folder's `README.md` for the title and book location only.
 3. Follow the book for steps; run any listed tests from that folder.
 

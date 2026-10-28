@@ -1,0 +1,43 @@
+{
+  "access_date": "2026-10-28",
+  "jurisdiction_note": "Sample only -- replace with your Chapter 3 worksheet path and local receive framing. Not legal advice.",
+  "source_url_or_doc": "https://www.itu.int/hub/publication/r-reg-rr-2024/",
+  "partial_session": false,
+  "entries": [
+    {
+      "time": "10:01",
+      "frequency_mhz": 99.5,
+      "mode": "WBFM",
+      "gist": "Local broadcast music bed, clear mono",
+      "antenna_position": "desk-window"
+    },
+    {
+      "time": "10:08",
+      "frequency_mhz": 118.1,
+      "mode": "AM",
+      "gist": "Short air-ground call, runway digits heard",
+      "antenna_position": "desk-window"
+    },
+    {
+      "time": "10:09",
+      "frequency_mhz": 118.1,
+      "mode": "AM",
+      "gist": "Reply with taxi instruction fragment",
+      "antenna_position": "desk-window"
+    },
+    {
+      "time": "10:15",
+      "frequency_mhz": 124.7,
+      "mode": "AM",
+      "gist": "Brief altitude readback, partial copy",
+      "antenna_position": "balcony"
+    },
+    {
+      "time": "10:22",
+      "frequency_mhz": 101.3,
+      "mode": "WBFM",
+      "gist": "Second FM talk station for mode contrast",
+      "antenna_position": "balcony"
+    }
+  ]
+}
