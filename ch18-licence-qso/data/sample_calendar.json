@@ -1,0 +1,55 @@
+{
+  "path_chosen": "italy_mimit",
+  "start_date": "2026-11-02",
+  "not_legal_advice_ack": "I understand this worksheet is not legal advice",
+  "weeks": [
+    {
+      "theme": "Regulations and HAREC map",
+      "days": [
+        {"focus": "Read MIMIT radioamatori portal overview", "minutes": 40, "done": true},
+        {"focus": "Skim CEPT T/R 61-02 topic list", "minutes": 35, "done": true},
+        {"focus": "Notes: memorize vs understand", "minutes": 30, "done": false},
+        {"focus": "Rest / light review flashcards", "minutes": 15, "done": false},
+        {"focus": "ITU service vs SRD reminder from Ch3", "minutes": 30, "done": false},
+        {"focus": "Syllabus checklist items 1-5", "minutes": 45, "done": false},
+        {"focus": "Weekly review", "minutes": 25, "done": false}
+      ]
+    },
+    {
+      "theme": "Electronics and antennas",
+      "days": [
+        {"focus": "Ohm / power / dB refresh", "minutes": 40, "done": false},
+        {"focus": "Antenna matching concepts", "minutes": 40, "done": false},
+        {"focus": "Safety + RF exposure qualitative", "minutes": 30, "done": false},
+        {"focus": "Rest", "minutes": 0, "done": false},
+        {"focus": "Block diagrams of a simple station", "minutes": 35, "done": false},
+        {"focus": "Practice quiz block A", "minutes": 45, "done": false},
+        {"focus": "Weekly review", "minutes": 25, "done": false}
+      ]
+    },
+    {
+      "theme": "Operating practice",
+      "days": [
+        {"focus": "Phonetics drill", "minutes": 30, "done": false},
+        {"focus": "Listen-before-TX habit notes", "minutes": 25, "done": false},
+        {"focus": "First-QSO script draft", "minutes": 40, "done": false},
+        {"focus": "Rest", "minutes": 0, "done": false},
+        {"focus": "Station ID rules from official page", "minutes": 40, "done": false},
+        {"focus": "Nets and courtesy reading", "minutes": 30, "done": false},
+        {"focus": "Weekly review", "minutes": 25, "done": false}
+      ]
+    },
+    {
+      "theme": "Timed practice and exam logistics",
+      "days": [
+        {"focus": "Timed syllabus checklist or practice quiz", "minutes": 50, "done": false},
+        {"focus": "Score and gap list", "minutes": 30, "done": false},
+        {"focus": "Exam portal logistics from official site", "minutes": 35, "done": false},
+        {"focus": "Rest", "minutes": 0, "done": false},
+        {"focus": "Cheat card finalize", "minutes": 30, "done": false},
+        {"focus": "Clubs/resources from official directories", "minutes": 30, "done": false},
+        {"focus": "Final review", "minutes": 40, "done": false}
+      ]
+    }
+  ]
+}

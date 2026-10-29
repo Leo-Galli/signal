@@ -1,0 +1,70 @@
+{
+  "path_chosen": "italy_mimit",
+  "disclaimer": "Companion syllabus checklist only -- not an official MIMIT exam and not an official HAREC certificate. Not legal advice.",
+  "not_legal_advice_ack": "I understand this worksheet is not legal advice",
+  "source_note": "Self-rated readiness against HAREC-aligned topic buckets. Re-check CEPT T/R 61-02 and current MIMIT pages before you sit any exam.",
+  "official_urls": [
+    "https://ispettorati.mise.gov.it/index.php/servizi/radioamatori/",
+    "https://ispcmi.mimit.gov.it/suite/sites/radioamatori",
+    "https://docdb.cept.org/document/926",
+    "https://docdb.cept.org/download/4424"
+  ],
+  "items": [
+    {
+      "id": "it01",
+      "kind": "checklist",
+      "topic": "Regulations",
+      "prompt": "I can explain in my own words that national authorization is required for amateur transmit, and I opened the current MIMIT radioamatori pages.",
+      "ready": true
+    },
+    {
+      "id": "it02",
+      "kind": "checklist",
+      "topic": "HAREC map",
+      "prompt": "I downloaded or opened the current CEPT T/R 61-02 PDF and listed the main syllabus topic groups I must study.",
+      "ready": true
+    },
+    {
+      "id": "it03",
+      "kind": "checklist",
+      "topic": "Electronics",
+      "prompt": "I can compute basic Ohm/power relationships and explain dBm vs watts without inventing exam numbers.",
+      "ready": true
+    },
+    {
+      "id": "it04",
+      "kind": "checklist",
+      "topic": "Antennas and propagation",
+      "prompt": "I can sketch a simple station (TX/RX, feedline, antenna) and name qualitative propagation ideas (LOS, ground wave, sky wave) without claiming invented distances.",
+      "ready": false
+    },
+    {
+      "id": "it05",
+      "kind": "checklist",
+      "topic": "Operating practice",
+      "prompt": "I drafted a first-QSO cheat card with listen-first acknowledgement and phonetics for my practice string or callsign.",
+      "ready": true
+    },
+    {
+      "id": "it06",
+      "kind": "checklist",
+      "topic": "Safety",
+      "prompt": "I keep the Chapter 2 field checklist and will not key RF with an unsafe antenna placement.",
+      "ready": true
+    },
+    {
+      "id": "it07",
+      "kind": "checklist",
+      "topic": "EMC / interference awareness",
+      "prompt": "I can state why causing harmful interference is unacceptable and what I will do if someone reports that my experiment started a problem (stop, document, fix).",
+      "ready": true
+    },
+    {
+      "id": "it08",
+      "kind": "checklist",
+      "topic": "Exam logistics",
+      "prompt": "I wrote the current exam/portal steps from the official MIMIT site with an access date -- no invented fees or form numbers.",
+      "ready": false
+    }
+  ]
+}

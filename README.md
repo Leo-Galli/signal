@@ -40,7 +40,11 @@ Chapter folders land as the book is written. Follow the book for lab steps; run 
 | `ch11-morse-software/` | Morse encode/decode WAV tools + corpus accuracy + timing fuzz, worksheets, BOM |
 | `ch12-morse-mcu/` | ESP32/Arduino Morse keyer+decoder firmware + WPM/decode-log tools, worksheets, BOM |
 | `ch13-lora-physics/` | LoRa airtime + first-order link budget + SRD duty-cycle helpers, worksheets, BOM |
-| `ch14-esp32-lora/` ... `ch18-licence-qso/` | Later chapters (as written) |
+| `ch14-esp32-lora/` | ESP32 LoRa P2P firmware + packet/duty-cycle/RSSI tools |
+| `ch15-mesh-ttn/` | Meshtastic/TTN guides + airtime/region/opsec tools |
+| `ch16-range-tests/` | Range-walk controls + blank results + RSSI plot tools |
+| `ch17-field-beacon/` | Field beacon dry-run firmware + Morse payload tools |
+| `ch18-licence-qso/` | Licence study calendar + practice quiz + QSO cheat card tools |
 | `.github/workflows/` | CI smoke plus per-chapter test jobs |
 
 ### Chapter 1 tests
@@ -121,6 +125,12 @@ pio run -e esp32dev   # requires PlatformIO; CI runs this job
 ### Chapter 13 tests
 ```bash
 cd ch13-lora-physics
+PYTHONPATH=. python -m unittest discover -s tests -v
+```
+
+### Chapter 18 tests
+```bash
+cd ch18-licence-qso
 PYTHONPATH=. python -m unittest discover -s tests -v
 ```
 

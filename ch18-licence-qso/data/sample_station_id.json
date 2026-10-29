@@ -1,0 +1,13 @@
+{
+  "path_chosen": "us_fcc",
+  "official_url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97",
+  "access_date": "2026-10-29",
+  "id_rules_summary": "Sample only: reader replaces with a short summary of identification requirements from the current Part 97 text for the privileges in use. This sample is not the rulebook.",
+  "checklist": [
+    {"step": "Confirm the callsign on the station authorization you actually hold", "checked": true},
+    {"step": "Identify at the intervals required by the current rules for the mode in use", "checked": true},
+    {"step": "Do not use another person's callsign", "checked": true},
+    {"step": "Stop if identification hardware/software fails", "checked": false}
+  ],
+  "not_legal_advice_ack": "I understand this worksheet is not legal advice"
+}

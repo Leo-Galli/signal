@@ -1,0 +1,22 @@
+{
+  "path_chosen": "italy_mimit",
+  "access_date": "2026-10-29",
+  "not_legal_advice_ack": "I understand this worksheet is not legal advice",
+  "resources": [
+    {
+      "name": "MIMIT Ispettorati -- Radioamatori service page",
+      "url": "https://ispettorati.mise.gov.it/index.php/servizi/radioamatori/",
+      "why_official": "Ministry inspectorate service page for the Italy worked example"
+    },
+    {
+      "name": "MIMIT Radioamatori portal",
+      "url": "https://ispcmi.mimit.gov.it/suite/sites/radioamatori",
+      "why_official": "Official portal for radioamateur services under MIMIT"
+    },
+    {
+      "name": "CEPT T/R 61-02 HAREC DOCDB entry",
+      "url": "https://docdb.cept.org/document/926",
+      "why_official": "Official CEPT documentation entry for HAREC syllabus alignment"
+    }
+  ]
+}

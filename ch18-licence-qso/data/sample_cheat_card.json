@@ -1,0 +1,15 @@
+{
+  "callsign_or_practice": "PRACTICE LG",
+  "path_chosen": "practice_only",
+  "listen_first_ack": "I will listen before transmitting",
+  "phonetic_name": "Lima Golf",
+  "band_or_frequency_note": "Practice card only -- no frequency until licensed path and local band plan are confirmed from official sources.",
+  "script_lines": [
+    "Listen for at least one full exchange; do not key into an ongoing contact.",
+    "This is PRACTICE LIMA GOLF listening for a call.",
+    "PRACTICE LIMA GOLF, your callsign please.",
+    "Name is Leonardo, location Milan, thank you for the contact.",
+    "PRACTICE LIMA GOLF clear."
+  ],
+  "not_legal_advice_ack": "I understand this worksheet is not legal advice"
+}

@@ -1,0 +1,116 @@
+{
+  "path_chosen": "us_fcc",
+  "disclaimer": "Companion practice only -- not an official FCC or NCVEC exam. Not legal advice.",
+  "not_legal_advice_ack": "I understand this worksheet is not legal advice",
+  "source_note": "Original companion items aligned to common Technician topic areas. Prefer the current public Element 2 question pool from official examination sources for real study.",
+  "official_urls": [
+    "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service/examinations",
+    "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97"
+  ],
+  "items": [
+    {
+      "id": "us01",
+      "kind": "mcq",
+      "topic": "Part 97 purpose",
+      "prompt": "Which statement best matches the Amateur Radio Service purpose under 47 CFR Part 97 as summarized for makers?",
+      "choices": [
+        "A commercial messaging service for businesses",
+        "A licensed non-commercial service for self-training, intercommunication and technical investigation",
+        "An unlicensed ISM band with no identification rules",
+        "A satellite-only service with no ground stations"
+      ],
+      "answer": "A licensed non-commercial service for self-training, intercommunication and technical investigation"
+    },
+    {
+      "id": "us02",
+      "kind": "mcq",
+      "topic": "Exams",
+      "prompt": "In the US, who typically administers amateur licence examinations?",
+      "choices": [
+        "Any electronics store clerk",
+        "Volunteer Examiners under the FCC Volunteer Examiner system",
+        "Only ITU staff in Geneva",
+        "Only the manufacturer of your handheld"
+      ],
+      "answer": "Volunteer Examiners under the FCC Volunteer Examiner system"
+    },
+    {
+      "id": "us03",
+      "kind": "mcq",
+      "topic": "Entry class",
+      "prompt": "Which exam element is the common entry path for a US Technician class licence?",
+      "choices": [
+        "Element 2",
+        "Element 9",
+        "HAREC Morse sending only",
+        "ERC/REC 70-03 Annex scoring"
+      ],
+      "answer": "Element 2"
+    },
+    {
+      "id": "us04",
+      "kind": "mcq",
+      "topic": "Identification",
+      "prompt": "Why does Part 97 require station identification?",
+      "choices": [
+        "So advertisers can bill airtime",
+        "So administrations and other operators can identify who is transmitting",
+        "Only when using LoRaWAN",
+        "Only on 433 MHz SRD"
+      ],
+      "answer": "So administrations and other operators can identify who is transmitting"
+    },
+    {
+      "id": "us05",
+      "kind": "mcq",
+      "topic": "Power and courtesy",
+      "prompt": "Before transmitting on an amateur frequency, a good operating habit is to:",
+      "choices": [
+        "Key up immediately at maximum power",
+        "Listen first to avoid interfering with an ongoing contact",
+        "Ignore band plans if the waterfall looks empty",
+        "Use someone else's callsign for practice"
+      ],
+      "answer": "Listen first to avoid interfering with an ongoing contact"
+    },
+    {
+      "id": "us06",
+      "kind": "mcq",
+      "topic": "Control",
+      "prompt": "A station under your control must be operated:",
+      "choices": [
+        "Without any regard for frequency allocations",
+        "In accordance with the rules that apply to your licence class and the privileges you are using",
+        "Only with encrypted hobby chat on HF",
+        "Only when the module datasheet allows higher power than the rules"
+      ],
+      "answer": "In accordance with the rules that apply to your licence class and the privileges you are using"
+    },
+    {
+      "id": "us07",
+      "kind": "mcq",
+      "topic": "Safety",
+      "prompt": "Which practice belongs in a safe first-QSO checklist?",
+      "choices": [
+        "Disable all identification to save airtime",
+        "Confirm antenna connected, frequency allowed for your privileges, and listen before keying",
+        "Borrow a callsign from a forum post",
+        "Transmit a false distress call as a test"
+      ],
+      "answer": "Confirm antenna connected, frequency allowed for your privileges, and listen before keying"
+    },
+    {
+      "id": "us08",
+      "kind": "mcq",
+      "topic": "SRD vs amateur",
+      "prompt": "A 433 MHz LoRa node under an EU SRD entry and a US amateur VHF handheld are:",
+      "choices": [
+        "The same legal path everywhere",
+        "Different legal paths with different power, ID and authorization rules",
+        "Both always illegal",
+        "Both free of any national rules"
+      ],
+      "answer": "Different legal paths with different power, ID and authorization rules"
+    }
+  ]
+}
